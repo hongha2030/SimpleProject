@@ -9,6 +9,7 @@ import org.testng.annotations.*;
  */
 public class SetUpPage extends TestObject {
 //    private static WebDriver driver;
+    private String homePage;
 
     @BeforeSuite
     public void startDriver() {
@@ -21,8 +22,9 @@ public class SetUpPage extends TestObject {
 
     @BeforeTest
     private void openHomePage() throws InterruptedException {
-        System.out.println("openHomePage");
-        driver.get("https://secure.gooddata.com");
+        homePage = System.getProperty("hostname");
+        System.out.println(homePage);
+        driver.get(homePage);
     }
     @AfterSuite
     public void tearDown() {
