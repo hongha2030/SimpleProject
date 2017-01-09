@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="DESKTOP-KTO6IU8" name="test.java.practiceWeek2_1.LoginTests" tests="5" failures="0" timestamp="7 Jan 2017 14:42:09 GMT" time="17.059" errors="0">
-  <testcase name="testInvalidAccount" time="7.225" classname="test.java.practiceWeek2_1.LoginTests"/>
-  <testcase name="testInvalidEmail" time="0.79" classname="test.java.practiceWeek2_1.LoginTests"/>
-  <testcase name="testInvalidPass" time="0.704" classname="test.java.practiceWeek2_1.LoginTests"/>
-  <testcase name="testBlankValue" time="0.7" classname="test.java.practiceWeek2_1.LoginTests"/>
-  <testcase name="testValidAccount" time="0.713" classname="test.java.practiceWeek2_1.LoginTests"/>
+<testsuite hostname="DESKTOP-KTO6IU8" name="test.java.practiceWeek2_1.LoginTests" tests="5" failures="0" timestamp="9 Jan 2017 02:07:41 GMT" time="16.07" errors="0">
+  <testcase name="testInvalidAccount" time="6.765" classname="test.java.practiceWeek2_1.LoginTests"/>
+  <testcase name="testInvalidEmail" time="0.906" classname="test.java.practiceWeek2_1.LoginTests"/>
+  <testcase name="testInvalidPass" time="0.769" classname="test.java.practiceWeek2_1.LoginTests"/>
+  <testcase name="testBlankValue" time="0.621" classname="test.java.practiceWeek2_1.LoginTests"/>
+  <testcase name="testValidAccount" time="0.717" classname="test.java.practiceWeek2_1.LoginTests"/>
 </testsuite>

@@ -36,17 +36,17 @@ public class LoginPage {
     }
 
     public String getMessageInvalidEmail() {
-        System.out.println("getMessageInvalidEmail "+messageEmailInvalid.getText());
+//        System.out.println("getMessageInvalidEmail "+messageEmailInvalid.getText());
         return messageEmailInvalid.getText();
     }
 
     public String getMessageInvalidPasword() {
-        System.out.println("getMessageInvalidPasword "+ messagePasswordInvalid.getText());
+//        System.out.println("getMessageInvalidPasword "+ messagePasswordInvalid.getText());
         return messagePasswordInvalid.getText();
     }
 
     public String getMessageInvalidAccount() {
-        System.out.println("getMessageInvalidAccount "+messageInvalidAccount.getText());
+//        System.out.println("getMessageInvalidAccount "+messageInvalidAccount.getText());
         return messageInvalidAccount.getText();
     }
 

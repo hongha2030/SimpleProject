@@ -15,6 +15,7 @@ public class SetUpPage extends TestObject {
     public void startDriver() {
         System.out.println("startDriver");
         driver = new FirefoxDriver();
+        driver.manage().window().maximize();
     }
     public WebDriver getDriver() {
         return driver;

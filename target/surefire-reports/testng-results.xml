@@ -1,29 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[Testcase: Testing login page by correct email and wrong password]]>
+    </line>
+    <line>
+      <![CDATA[Testcase: Testing login page by invalid email]]>
+    </line>
+    <line>
+      <![CDATA[Testcase: Testing login page by invalid pasword (password < 7 characters)]]>
+    </line>
+    <line>
+      <![CDATA[Testcase: Testing login page by blank email and password]]>
+    </line>
+    <line>
+      <![CDATA[Testcase: Login successful when try to login by correct email and password]]>
+    </line>
   </reporter-output>
-  <suite name="Suite1" duration-ms="17059" started-at="2017-01-07T21:41:52Z" finished-at="2017-01-07T21:42:09Z">
+  <suite name="Suite1" duration-ms="16070" started-at="2017-01-09T09:07:25Z" finished-at="2017-01-09T09:07:41Z">
     <groups>
     </groups>
-    <test name="BasicSuite" duration-ms="17059" started-at="2017-01-07T21:41:52Z" finished-at="2017-01-07T21:42:09Z">
+    <test name="BasicSuite" duration-ms="16070" started-at="2017-01-09T09:07:25Z" finished-at="2017-01-09T09:07:41Z">
       <class name="test.java.practiceWeek2_1.SetUpPage">
-        <test-method status="PASS" signature="startDriver()" name="startDriver" is-config="true" duration-ms="6542" started-at="2017-01-07T21:41:45Z" finished-at="2017-01-07T21:41:52Z">
+        <test-method status="PASS" signature="startDriver()" name="startDriver" is-config="true" duration-ms="6607" started-at="2017-01-09T09:07:18Z" finished-at="2017-01-09T09:07:25Z">
         </test-method>
-        <test-method status="PASS" signature="openHomePage()" name="openHomePage" is-config="true" duration-ms="6921" started-at="2017-01-07T21:41:52Z" finished-at="2017-01-07T21:41:59Z">
+        <test-method status="PASS" signature="openHomePage()" name="openHomePage" is-config="true" duration-ms="6284" started-at="2017-01-09T09:07:25Z" finished-at="2017-01-09T09:07:31Z">
         </test-method>
-        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="614" started-at="2017-01-07T21:42:09Z" finished-at="2017-01-07T21:42:10Z">
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="657" started-at="2017-01-09T09:07:41Z" finished-at="2017-01-09T09:07:41Z">
         </test-method>
       </class>
       <class name="test.java.practiceWeek2_1.LoginTests">
-        <test-method status="PASS" signature="testInvalidAccount()" name="testInvalidAccount" duration-ms="7225" started-at="2017-01-07T21:41:59Z" description="Login failed when trying to login by invalid account" finished-at="2017-01-07T21:42:06Z">
+        <test-method status="PASS" signature="testInvalidAccount()" name="testInvalidAccount" duration-ms="6765" started-at="2017-01-09T09:07:31Z" description="Login failed when trying to login by invalid account" finished-at="2017-01-09T09:07:38Z">
         </test-method>
-        <test-method status="PASS" signature="testInvalidEmail()" name="testInvalidEmail" duration-ms="790" started-at="2017-01-07T21:42:06Z" description="System validates invalid account" finished-at="2017-01-07T21:42:07Z">
+        <test-method status="PASS" signature="testInvalidEmail()" name="testInvalidEmail" duration-ms="906" started-at="2017-01-09T09:07:38Z" description="System validates invalid account" finished-at="2017-01-09T09:07:39Z">
         </test-method>
-        <test-method status="PASS" signature="testInvalidPass()" name="testInvalidPass" duration-ms="704" started-at="2017-01-07T21:42:07Z" description="System validates invalid password" finished-at="2017-01-07T21:42:08Z">
+        <test-method status="PASS" signature="testInvalidPass()" name="testInvalidPass" duration-ms="769" started-at="2017-01-09T09:07:39Z" description="System validates invalid password" finished-at="2017-01-09T09:07:39Z">
         </test-method>
-        <test-method status="PASS" signature="testBlankValue()" name="testBlankValue" duration-ms="700" started-at="2017-01-07T21:42:08Z" description="System validates blank value" finished-at="2017-01-07T21:42:08Z">
+        <test-method status="PASS" signature="testBlankValue()" name="testBlankValue" duration-ms="621" started-at="2017-01-09T09:07:39Z" description="System validates blank value" finished-at="2017-01-09T09:07:40Z">
         </test-method>
-        <test-method status="PASS" signature="testValidAccount()" name="testValidAccount" duration-ms="713" started-at="2017-01-07T21:42:08Z" description="Login successful when login by valid account" finished-at="2017-01-07T21:42:09Z">
+        <test-method status="PASS" signature="testValidAccount()" name="testValidAccount" duration-ms="717" started-at="2017-01-09T09:07:40Z" description="Login successful when login by valid account" finished-at="2017-01-09T09:07:41Z">
         </test-method>
       </class>
     </test>
